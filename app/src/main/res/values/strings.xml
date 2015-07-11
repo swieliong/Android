@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string name="title_main">Android</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hello">Activity Lifecycle</string>
+    <string name="title_activity_service">Service Demo</string>
+    <string name="title_activity_broadcast_receiver">Broadcast Receiver Demo</string>
+    <string name="title_activity_content_provider_action">Content Provider Demo</string>
+    <string name="title_activity_fragment">Fragment Demo</string>
+    <string name="title_activity_intent">Intent and Filter</string>
+    <string name="title_activity_next">Next Activity</string>
+    <string name="title_activity_linear_layout">Linear Layout Demo</string>
+    <string name="title_activity_relative_layout">Relative Layout Demo</string>
+    <string name="title_activity_absolute_layout">Absolute Layout Demo</string>
+    <string name="title_activity_frame_layout">Frame Layout Demo</string>
+    <string name="title_activity_list_view_layout">ListView Layout Demo</string>
+    <string name="title_activity_grid_view_layout">GridView Layout Demo</string>
+    <string name="title_activity_web_view_layout">WebView Layout Demo</string>
+    <string name="title_activity_context_menu">Context Menu Demo</string>
+    <string name="title_activity_popup_menu">Popup Menu Demo</string>
+    <string name="title_activity_option_menu">Option Menu Demo</string>
+    <string name="title_activity_notification">Notification Demo</string>
+    <string name="title_activity_send_mail">Send Mail Demo</string>
+    <string name="title_activity_sms">Sms Demo</string>
+    <string name="title_activity_phone_call">Phone Call Demo</string>
+    <string name="title_activity_dialog">Dialog Demo</string>
+    <string name="title_activity_audio_capture">Audio Capture Demo</string>
+    <string name="title_activity_camera_capture">Camera Capture Demo</string>
+    <string name="title_activity_http_conn">Http Connection Demo</string>
+    <string name="title_activity_shared_preference">Shared Preference Demo</string>
+    <string name="title_activity_home">Home Activity</string>
+    <string name="title_activity_sqlite">SQLite Contact Demo</string>
+    <string name="title_activity_display_contact">Display Contact</string>
+    <string name="title_activity_wifi">Wifi Demo</string>
+    <string name="title_activity_web_service">Web Service Demo</string>
+    <string name="title_activity_tab_bar">TabBar Demo</string>
+    <string name="title_activity_tab1">Tab 1</string>
+    <string name="title_activity_tab2">Tab 2</string>
+    <string name="title_activity_tab3">Tab 3</string>
+    <string name="title_activity_async_task">AsyncTask Demo</string>
+</resources>

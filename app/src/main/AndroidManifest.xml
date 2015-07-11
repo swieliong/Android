@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ryanman.example" >
+
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HelloActivity"
+            android:label="@string/title_activity_hello" >
+        </activity>
+        <activity
+            android:name=".service.ServiceActivity"
+            android:label="@string/title_activity_service" >
+        </activity>
+
+        <service
+            android:name=".service.MyService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".broadcastreceiver.BroadcastReceiverActivity"
+            android:label="@string/title_activity_broadcast_receiver" >
+        </activity>
+
+        <receiver
+            android:name=".broadcastreceiver.CustomReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+
+                <!-- custom -->
+                <action android:name="com.ryanman.CUSTOM_INTENT" >
+                </action>
+                <!-- API intents can be found at J:\IDE\Android\sdk\platforms\android-22\data -->
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".contentprovider.ContentProviderActivity"
+            android:label="@string/title_activity_content_provider_action" >
+        </activity>
+
+        <provider
+            android:name=".contentprovider.MyContentProvider"
+            android:authorities="com.example.provider.College"
+            android:enabled="true"
+            android:exported="true" >
+        </provider>
+
+        <activity
+            android:name=".fragment.FragmentActivity"
+            android:label="@string/title_activity_fragment" >
+        </activity>
+        <activity
+            android:name=".intent.IntentActivity"
+            android:label="@string/title_activity_intent" >
+        </activity>
+        <activity
+            android:name=".intent.NextActivity"
+            android:label="@string/title_activity_next" >
+        </activity>
+        <activity
+            android:name=".layout.LinearLayoutActivity"
+            android:label="@string/title_activity_linear_layout" >
+        </activity>
+        <activity
+            android:name=".layout.RelativeLayoutActivity"
+            android:label="@string/title_activity_relative_layout" >
+        </activity>
+        <activity
+            android:name=".layout.TableLayoutActivity"
+            android:label="Table Layout Demo" >
+        </activity>
+        <activity
+            android:name=".layout.FrameLayoutActivity"
+            android:label="@string/title_activity_frame_layout" >
+        </activity>
+        <activity
+            android:name=".layout.ListViewLayoutActivity"
+            android:label="@string/title_activity_list_view_layout" >
+        </activity>
+        <activity
+            android:name=".layout.GridViewLayoutActivity"
+            android:label="@string/title_activity_grid_view_layout" >
+        </activity>
+        <activity
+            android:name=".layout.WebViewLayoutActivity"
+            android:label="@string/title_activity_web_view_layout" >
+        </activity>
+        <activity
+            android:name=".ui.ContextMenuActivity"
+            android:label="@string/title_activity_context_menu" >
+        </activity>
+        <activity
+            android:name=".ui.PopupMenuActivity"
+            android:label="@string/title_activity_popup_menu" >
+        </activity>
+        <activity
+            android:name=".ui.OptionMenuActivity"
+            android:label="@string/title_activity_option_menu" >
+        </activity>
+        <activity
+            android:name=".notification.NotificationActivity"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name=".notification.NotificationView"
+            android:label="Details of notification"
+            android:parentActivityName=".notification.NotificationActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".notification.NotificationActivity" />
+        </activity>
+        <activity
+            android:name=".mail.MailActivity"
+            android:label="@string/title_activity_send_mail" >
+        </activity>
+        <activity
+            android:name=".sms.SmsActivity"
+            android:label="@string/title_activity_sms" >
+        </activity>
+        <activity
+            android:name=".phone.PhoneCallActivity"
+            android:label="@string/title_activity_phone_call" >
+        </activity>
+        <activity
+            android:name=".ui.DialogActivity"
+            android:label="@string/title_activity_dialog" >
+        </activity>
+        <activity
+            android:name=".audio.AudioCaptureActivity"
+            android:label="@string/title_activity_audio_capture" >
+        </activity>
+        <activity
+            android:name=".camera.CameraCaptureActivity"
+            android:label="@string/title_activity_camera_capture" >
+        </activity>
+        <activity
+            android:name=".network.HttpConnActivity"
+            android:label="@string/title_activity_http_conn" >
+        </activity>
+        <activity
+            android:name=".sharedpreference.SharedPreferenceActivity"
+            android:label="@string/title_activity_shared_preference" >
+        </activity>
+        <activity
+            android:name=".sharedpreference.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".sqlite.SQLiteActivity"
+            android:label="@string/title_activity_sqlite" >
+        </activity>
+        <activity
+            android:name=".sqlite.DisplayContactActivity"
+            android:label="@string/title_activity_display_contact" >
+        </activity>
+        <activity
+            android:name=".wifi.WifiActivity"
+            android:label="@string/title_activity_wifi" >
+        </activity>
+        <activity
+            android:name=".webservice.WebServiceActivity"
+            android:label="@string/title_activity_web_service" >
+        </activity>
+        <activity
+            android:name=".ui.TabBarActivity"
+            android:label="@string/title_activity_tab_bar" >
+        </activity>
+        <activity
+            android:name=".ui.Tab1Activity"
+            android:label="@string/title_activity_tab1" >
+        </activity>
+        <activity
+            android:name=".ui.Tab2Activity"
+            android:label="@string/title_activity_tab2" >
+        </activity>
+        <activity
+            android:name=".ui.Tab3Activity"
+            android:label="@string/title_activity_tab3" >
+        </activity>
+        <activity
+            android:name=".asynctask.AsyncTaskActivity"
+            android:label="@string/title_activity_async_task" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!--
+    see tutorial http://www.tutorialspoint.com/android/android_styles_and_themes.htm
+    http://developer.android.com/guide/topics/ui/themes.html
+
+    Theme vs Style
+    Well they are both declared in exactly the same way (which you already know), the difference comes in how they’re used.
+    Themes are meant to be the global source of styling for your app.
+        AndroidManifest.xml - <application android:theme="@style/CustomFontStyle">
+    Styles are meant to be applied at a view level.
+        <activity android:theme="@style/CustomFontStyle">
+    -->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>
