@@ -54,4 +54,16 @@ public class HelloActivity extends Activity {
         super.onRestart();
         Log.d("lifecycle","onRestart invoked");
     }
+
+    // avoid losing data when activity be destroyed
+    // http://developer.android.com/guide/components/activities.html#SavingActivityState
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+    }
 }

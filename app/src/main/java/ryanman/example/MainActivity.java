@@ -87,6 +87,8 @@ PUBLISH
 Push Notification
     https://parse.com/tutorials/android-push-notifications
     https://mixpanel.com/help/reference/android-push-notifications
+    http://programmerguru.com/android-tutorial/how-to-send-push-notifications-using-gcm-service/
+    http://programmerguru.com/android-tutorial/android-multicast-push-notifications-using-gcm/
 Ring Mode http://www.tutorialspoint.com/android/android_audiomanager.htm
 RSS Reader http://www.tutorialspoint.com/android/android_rss_reader.htm
 Sensor
@@ -94,6 +96,14 @@ Sensor
     http://www.javatpoint.com/android-sensor-tutorial
 SOCIAL
     Facebook http://www.tutorialspoint.com/android/android_facebook_integration.htm
+        http://programmerguru.com/android-tutorial/getting-started-with-the-facebook-sdk-for-android/
+        http://programmerguru.com/android-tutorial/my-first-android-facebook-social-app/
+        http://programmerguru.com/android-tutorial/how-to-implement-facebook-login-in-android-applications/
+        http://programmerguru.com/android-tutorial/android-facebook-login-implementation-with-fragment/
+        http://programmerguru.com/android-tutorial/how-to-add-facebook-like-button-in-android-applications/
+        http://programmerguru.com/android-tutorial/facebook-sharing-in-android/
+        http://programmerguru.com/android-tutorial/android-facebook-simple-message-dialog-tutorial/
+
     GMap http://www.tutorialspoint.com/android/android_google_maps.htm
     LinkedIn http://www.tutorialspoint.com/android/android_linkedin_integration.htm
     Tweeter http://www.tutorialspoint.com/android/android_twitter_integration.htm
